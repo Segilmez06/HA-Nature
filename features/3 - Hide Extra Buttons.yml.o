@@ -1,0 +1,4 @@
+# Hides sidebar, assist and search buttons. Intended for use with kiosk displays.
+
+id: 3
+desc: H

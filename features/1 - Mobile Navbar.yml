@@ -1,0 +1,21 @@
+# Moves navbar to bottom of the view. Intended for mobile devices.
+
+id: 1
+desc: M
+card_mod:
+  root-yaml:
+    .: |
+      div:not(.edit-mode) > .header {
+        bottom: 0;
+        top: unset !important;
+      }
+      div:not(.edit-mode) > #view {
+        padding-top: unset !important;
+      }
+
+    ha-tabs$: |
+      div:not(.edit-mode) > #tabsContent{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+      }

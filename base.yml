@@ -1,0 +1,14 @@
+primary-color: rgb(var(--c-rgb-primary))
+accent-color: rgb(var(--c-rgb-accent))
+rgb-primary-color: var(--c-rgb-primary)
+rgb-accent-color: var(--c-rgb-accent)
+light-primary-color: rgb(var(--c-rgb-primary))
+
+control-switch-on-color: rgb(var(--c-rgb-primary))
+
+state-active-color: rgb(var(--c-rgb-primary))
+state-inactive-color: var(--grey-color)
+
+state-icon-color: rgb(var(--c-rgb-primary))
+
+app-header-background-color: rgb(var(--c-rgb-header))

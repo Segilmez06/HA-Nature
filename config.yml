@@ -1,0 +1,12 @@
+output_dir: out
+output_file: nature.yaml # Home Assistant only reads themes from .yaml files!
+
+# Base style assignments file
+base_file: base.yml
+
+# Color schemes file
+colors_file: colors.yml
+
+# Directory to read features from
+features_dir: features
+features_extension: yml

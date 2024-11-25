@@ -1,0 +1,12 @@
+# Theme identifier
+# id: 0
+
+# CSS Variables
+# vars:
+
+# Card Mod Options - see:
+# https://github.com/thomasloven/lovelace-card-mod/wiki/Card-mod-Themes
+# card_mod:
+#   root-yaml:
+#   view-yaml:
+#   more-info-yaml:

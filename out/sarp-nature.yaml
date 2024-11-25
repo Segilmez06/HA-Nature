@@ -1,0 +1,444 @@
+"\U0001F332 Forest - 00 (Vanilla)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-0-light
+    dark:
+      sarp-theme-variant: forest-0-dark
+  card-mod-theme: "\U0001F332 Forest - 00 (Vanilla)"
+"\U0001F332 Forest - 01 (T)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-1-light
+    dark:
+      sarp-theme-variant: forest-1-dark
+  card-mod-theme: "\U0001F332 Forest - 01 (T)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}\""
+"\U0001F332 Forest - 02 (M)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-2-light
+    dark:
+      sarp-theme-variant: forest-2-dark
+  card-mod-theme: "\U0001F332 Forest - 02 (M)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
+    \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
+    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
+    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
+    n}\""
+"\U0001F332 Forest - 04 (G)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-4-light
+    dark:
+      sarp-theme-variant: forest-4-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F332 Forest - 04 (G)"
+"\U0001F332 Forest - 03 (TM)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-3-light
+    dark:
+      sarp-theme-variant: forest-3-dark
+  card-mod-theme: "\U0001F332 Forest - 03 (TM)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
+    \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
+    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
+    n  width: 100%;\\n}\""
+"\U0001F332 Forest - 05 (TG)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-5-light
+    dark:
+      sarp-theme-variant: forest-5-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F332 Forest - 05 (TG)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}\""
+"\U0001F332 Forest - 06 (MG)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-6-light
+    dark:
+      sarp-theme-variant: forest-6-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F332 Forest - 06 (MG)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
+    \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
+    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
+    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
+    n}\""
+"\U0001F332 Forest - 07 (TMG)":
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: forest-7-light
+    dark:
+      sarp-theme-variant: forest-7-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F332 Forest - 07 (TMG)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
+    \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
+    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
+    n  width: 100%;\\n}\""
+"\U0001F30A Ocean - 00 (Vanilla)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-0-light
+    dark:
+      sarp-theme-variant: ocean-0-dark
+  card-mod-theme: "\U0001F30A Ocean - 00 (Vanilla)"
+"\U0001F30A Ocean - 01 (T)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-1-light
+    dark:
+      sarp-theme-variant: ocean-1-dark
+  card-mod-theme: "\U0001F30A Ocean - 01 (T)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}\""
+"\U0001F30A Ocean - 02 (M)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-2-light
+    dark:
+      sarp-theme-variant: ocean-2-dark
+  card-mod-theme: "\U0001F30A Ocean - 02 (M)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
+    \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
+    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
+    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
+    n}\""
+"\U0001F30A Ocean - 04 (G)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-4-light
+    dark:
+      sarp-theme-variant: ocean-4-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F30A Ocean - 04 (G)"
+"\U0001F30A Ocean - 03 (TM)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-3-light
+    dark:
+      sarp-theme-variant: ocean-3-dark
+  card-mod-theme: "\U0001F30A Ocean - 03 (TM)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
+    \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
+    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
+    n  width: 100%;\\n}\""
+"\U0001F30A Ocean - 05 (TG)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-5-light
+    dark:
+      sarp-theme-variant: ocean-5-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F30A Ocean - 05 (TG)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}\""
+"\U0001F30A Ocean - 06 (MG)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-6-light
+    dark:
+      sarp-theme-variant: ocean-6-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F30A Ocean - 06 (MG)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
+    \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
+    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
+    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
+    n}\""
+"\U0001F30A Ocean - 07 (TMG)":
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+  state-icon-color: rgb(var(--c-rgb-primary))
+  app-header-background-color: rgb(var(--c-rgb-header))
+  modes:
+    light:
+      sarp-theme-variant: ocean-7-light
+    dark:
+      sarp-theme-variant: ocean-7-dark
+  ha-card-background: 'radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%,
+    #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80'
+  md-list-container-color: transparent
+  card-mod-theme: "\U0001F30A Ocean - 07 (TMG)"
+  card-mod-root-yaml: ".: \"div:not(.edit-mode)>div#view {\\n  padding-top: unset\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-sections-view,\\\
+    n\\\n  div:not(.edit-mode)>div#view>hui-view>hui-panel-view {\\n  padding-top:\
+    \ calc(var(--header-height)\\\n  \\ + env(safe-area-inset-top));\\n}\\ndiv:not(.edit-mode)>div#view>hui-view>hui-panel-view\\\
+    \n  \\ {\\n  box-sizing: border-box;\\n}\\ndiv:not(.edit-mode)>div.header {\\\
+    n  background:\\\n  \\ transparent !important;\\n  backdrop-filter: blur(10px)\
+    \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
+    \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
+    \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
+    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
+    n  width: 100%;\\n}\""

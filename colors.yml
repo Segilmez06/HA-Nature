@@ -1,0 +1,20 @@
+# - icon: <Emoji>
+#   name: <Theme Name>
+#   colors:
+#     primary: [<R>, <G>, <B>]
+#     accent: [<R>, <G>, <B>]
+#     header: [<R>, <G>, <B>]
+
+- icon: 🌲
+  name: Forest
+  colors:
+    primary: [22, 197, 89]
+    accent: [34, 140, 46]
+    header: [14, 49, 18]
+
+- icon: 🌊
+  name: Ocean
+  colors:
+    primary: [36, 186, 255]
+    accent: [17, 105, 146]
+    header: [14, 49, 18]

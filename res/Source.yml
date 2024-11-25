@@ -1,0 +1,224 @@
+🌲 Nature - 00 by Sarp:
+  b-card: "radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%, #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80"
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+
+  state-icon-color: rgb(var(--c-rgb-primary))
+
+  app-header-background-color: rgb(var(--c-rgb-header))
+
+  ha-card-background: var(--b-card)
+  # Repair items background color
+  md-list-container-color: transparent
+
+  modes:
+    light:
+      sarp-theme: nature-light-00
+    dark:
+      sarp-theme: nature-dark-00
+
+🌲 Nature - 01 by Sarp:
+  b-card: "radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%, #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80"
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+
+  state-icon-color: rgb(var(--c-rgb-primary))
+
+  ha-card-background: var(--b-card)
+  app-header-background-color: rgb(var(--c-rgb-header))
+
+  # Repair items background color
+  md-list-container-color: transparent
+
+  card-mod-theme: 🌲 Nature - 01 by Sarp
+  card-mod-root: |
+    div:not(.edit-mode)>div#view {
+        padding-top: unset !important;
+    }
+
+    div:not(.edit-mode)>div#view>hui-view>hui-sections-view,
+    div:not(.edit-mode)>div#view>hui-view>hui-panel-view {
+        padding-top: calc(var(--header-height) + env(safe-area-inset-top));
+    }
+
+    div:not(.edit-mode)>div#view>hui-view>hui-panel-view {
+        box-sizing: border-box;
+    }
+
+    div:not(.edit-mode)>div.header {
+        background: transparent !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    div:not(.edit-mode)>div.header:hover {
+        background: var(--app-header-background-color);
+    }
+
+  modes:
+    light:
+      sarp-theme: nature-light-01
+    dark:
+      sarp-theme: nature-dark-01
+
+🌲 Nature - 02 by Sarp:
+  b-card: "radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%, #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80"
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+
+  state-icon-color: rgb(var(--c-rgb-primary))
+
+  ha-card-background: var(--b-card)
+  app-header-background-color: rgb(var(--c-rgb-header))
+
+  # Repair items background color
+  md-list-container-color: transparent
+
+  card-mod-theme: 🌲 Nature - 02 by Sarp
+  card-mod-root-yaml: |
+    .: |
+      div:not(.edit-mode) > .header {
+        bottom: 0;
+        top: unset !important;
+      }
+      div:not(.edit-mode) > #view {
+        padding-top: unset !important;
+      }
+
+    ha-tabs$: |
+      div:not(.edit-mode) > #tabsContent{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+      }
+
+🌲 Nature - 03 by Sarp:
+  b-card: "radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%, #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80"
+  c-rgb-primary: 22, 197, 89
+  c-rgb-accent: 34, 140, 46
+  c-rgb-header: 14, 49, 18
+
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+
+  state-icon-color: rgb(var(--c-rgb-primary))
+
+  ha-card-background: var(--b-card)
+  app-header-background-color: rgb(var(--c-rgb-header))
+
+  # Repair items background color
+  md-list-container-color: transparent
+
+  card-mod-theme: 🌲 Nature - 03 by Sarp
+  card-mod-root-yaml: |
+    .: |
+      div:not(.edit-mode)>div#view {
+        padding-top: unset !important;
+      }
+      div:not(.edit-mode)>div#view>hui-view>hui-sections-view,
+      div:not(.edit-mode)>div#view>hui-view>hui-panel-view {
+        padding-top: calc(var(--header-height) + env(safe-area-inset-top));
+      }
+      div:not(.edit-mode)>div#view>hui-view>hui-panel-view {
+        box-sizing: border-box;
+      }
+      div:not(.edit-mode)>div.header {
+        background: transparent !important;
+        backdrop-filter: blur(10px) !important;
+      }
+      div:not(.edit-mode)>div.header:hover {
+        background: var(--app-header-background-color);
+      }
+
+      div:not(.edit-mode) > .header {
+        bottom: 0;
+        top: unset !important;
+      }
+      div:not(.edit-mode) > #view {
+        padding-top: unset !important;
+      }
+
+    ha-tabs$: |
+      div:not(.edit-mode) > #tabsContent{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+      }
+
+
+  modes:
+    light:
+      sarp-theme: nature-light-03
+    dark:
+      sarp-theme: nature-dark-03
+
+🌊 Ocean by Sarp:
+  b-card: "radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%, #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80"
+  c-rgb-primary: 36, 186, 255
+  c-rgb-accent: 17, 105, 146
+  c-rgb-header: 14, 49, 18
+
+  primary-color: rgb(var(--c-rgb-primary))
+  accent-color: rgb(var(--c-rgb-accent))
+  rgb-primary-color: var(--c-rgb-primary)
+  rgb-accent-color: var(--c-rgb-accent)
+  light-primary-color: rgb(var(--c-rgb-primary))
+
+  control-switch-on-color: rgb(var(--c-rgb-primary))
+  
+  state-active-color: rgb(var(--c-rgb-primary))
+  state-inactive-color: var(--grey-color)
+
+  state-icon-color: rgb(var(--c-rgb-primary))
+
+  ha-card-background: var(--b-card)
+  app-header-background-color: rgb(var(--c-rgb-header))
+
+  modes:
+    light:
+      sarp-theme: light
+    dark:
+      sarp-theme: dark

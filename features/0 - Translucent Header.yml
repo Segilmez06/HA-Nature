@@ -1,0 +1,24 @@
+# Sets headers background to transparent and adds blur. Best used with dashboards using a background image.
+
+id: 0
+desc: T
+card_mod:
+  root-yaml:
+    .: |
+      div:not(.edit-mode)>div#view {
+        padding-top: unset !important;
+      }
+      div:not(.edit-mode)>div#view>hui-view>hui-sections-view,
+      div:not(.edit-mode)>div#view>hui-view>hui-panel-view {
+        padding-top: calc(var(--header-height) + env(safe-area-inset-top));
+      }
+      div:not(.edit-mode)>div#view>hui-view>hui-panel-view {
+        box-sizing: border-box;
+      }
+      div:not(.edit-mode)>div.header {
+        background: transparent !important;
+        backdrop-filter: blur(10px) !important;
+      }
+      div:not(.edit-mode)>div.header:hover {
+        background: var(--app-header-background-color);
+      }

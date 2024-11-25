@@ -1,0 +1,8 @@
+# Adds a smooth tri-color dark gradient background to the card.
+
+id: 2
+desc: G
+vars:
+  ha-card-background: "radial-gradient(100% 194% at 100% 0%, #151719 0%, #151619 16%, #191517 32%, #191417 50%, #191517 64%, #151519 82%, #141719 100%), #1c1c1c80"
+  # Repair items background color
+  md-list-container-color: transparent
