@@ -12,10 +12,7 @@ card_mod:
       div:not(.edit-mode) > #view {
         padding-top: unset !important;
       }
-
-    ha-tabs$: |
-      div:not(.edit-mode) > #tabsContent{
+      sl-tab-group {
         display: flex;
-        justify-content: space-evenly;
-        width: 100%;
+        justify-content: space-around;
       }

@@ -68,9 +68,8 @@
   card-mod-theme: "\U0001F332 Forest - 02 (M)"
   card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
     \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
-    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
-    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
-    n}\""
+    \ unset !important;\\n}\\nsl-tab-group {\\n  display: flex;\\n\\\n  \\  justify-content:\
+    \ space-around;\\n}\""
 "\U0001F332 Forest - 04 (G)":
   c-rgb-primary: 22, 197, 89
   c-rgb-accent: 34, 140, 46
@@ -123,9 +122,8 @@
     \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
     \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
     \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
-    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
-    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
-    n  width: 100%;\\n}\""
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\nsl-tab-group {\\n  display:\
+    \ flex;\\n  justify-content:\\\n  \\ space-around;\\n}\""
 "\U0001F332 Forest - 05 (TG)":
   c-rgb-primary: 22, 197, 89
   c-rgb-accent: 34, 140, 46
@@ -182,9 +180,8 @@
   card-mod-theme: "\U0001F332 Forest - 06 (MG)"
   card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
     \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
-    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
-    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
-    n}\""
+    \ unset !important;\\n}\\nsl-tab-group {\\n  display: flex;\\n\\\n  \\  justify-content:\
+    \ space-around;\\n}\""
 "\U0001F332 Forest - 07 (TMG)":
   c-rgb-primary: 22, 197, 89
   c-rgb-accent: 34, 140, 46
@@ -217,13 +214,12 @@
     \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
     \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
     \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
-    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
-    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
-    n  width: 100%;\\n}\""
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\nsl-tab-group {\\n  display:\
+    \ flex;\\n  justify-content:\\\n  \\ space-around;\\n}\""
 "\U0001F30A Ocean - 00 (Vanilla)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -243,7 +239,7 @@
 "\U0001F30A Ocean - 01 (T)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -271,7 +267,7 @@
 "\U0001F30A Ocean - 02 (M)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -290,13 +286,12 @@
   card-mod-theme: "\U0001F30A Ocean - 02 (M)"
   card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
     \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
-    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
-    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
-    n}\""
+    \ unset !important;\\n}\\nsl-tab-group {\\n  display: flex;\\n\\\n  \\  justify-content:\
+    \ space-around;\\n}\""
 "\U0001F30A Ocean - 04 (G)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -319,7 +314,7 @@
 "\U0001F30A Ocean - 03 (TM)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -345,13 +340,12 @@
     \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
     \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
     \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
-    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
-    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
-    n  width: 100%;\\n}\""
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\nsl-tab-group {\\n  display:\
+    \ flex;\\n  justify-content:\\\n  \\ space-around;\\n}\""
 "\U0001F30A Ocean - 05 (TG)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -382,7 +376,7 @@
 "\U0001F30A Ocean - 06 (MG)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -404,13 +398,12 @@
   card-mod-theme: "\U0001F30A Ocean - 06 (MG)"
   card-mod-root-yaml: ".: \"div:not(.edit-mode) > .header {\\n  bottom: 0;\\n  top:\
     \ unset !important;\\n}\\ndiv:not(.edit-mode)\\\n  \\ > #view {\\n  padding-top:\
-    \ unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode) > #tabsContent{\\\
-    n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\n  width: 100%;\\\
-    n}\""
+    \ unset !important;\\n}\\nsl-tab-group {\\n  display: flex;\\n\\\n  \\  justify-content:\
+    \ space-around;\\n}\""
 "\U0001F30A Ocean - 07 (TMG)":
   c-rgb-primary: 36, 186, 255
   c-rgb-accent: 17, 105, 146
-  c-rgb-header: 14, 49, 18
+  c-rgb-header: 14, 38, 49
   primary-color: rgb(var(--c-rgb-primary))
   accent-color: rgb(var(--c-rgb-accent))
   rgb-primary-color: var(--c-rgb-primary)
@@ -439,6 +432,5 @@
     \ !important;\\n}\\ndiv:not(.edit-mode)>div.header:hover\\\n  \\ {\\n  background:\
     \ var(--app-header-background-color);\\n}div:not(.edit-mode) > .header\\\n  \\\
     \ {\\n  bottom: 0;\\n  top: unset !important;\\n}\\ndiv:not(.edit-mode) > #view\
-    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\n\"\nha-tabs$: \"div:not(.edit-mode)\
-    \ > #tabsContent{\\n  display: flex;\\n  justify-content:\\\n  \\ space-evenly;\\\
-    n  width: 100%;\\n}\""
+    \ {\\n\\\n  \\  padding-top: unset !important;\\n}\\nsl-tab-group {\\n  display:\
+    \ flex;\\n  justify-content:\\\n  \\ space-around;\\n}\""
